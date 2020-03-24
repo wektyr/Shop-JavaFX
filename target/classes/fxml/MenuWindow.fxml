@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="317.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerMenu">
+    <children>
+      <Button layoutX="86.0" layoutY="34.0" mnemonicParsing="false" onAction="#handlePrz" prefHeight="67.0" prefWidth="145.0" text="Przeglądaj produkty" />
+      <Button layoutX="86.0" layoutY="130.0" mnemonicParsing="false" onAction="#handleHis" prefHeight="67.0" prefWidth="145.0" text="Historia transakcji" />
+      <Button layoutX="86.0" layoutY="226.0" mnemonicParsing="false" onAction="#handleInf" prefHeight="67.0" prefWidth="145.0" text="Informacje o koncie" />
+      <Button layoutX="133.0" layoutY="329.0" mnemonicParsing="false" onAction="#handleWyl" text="Wyloguj" />
+    </children>
+</AnchorPane>

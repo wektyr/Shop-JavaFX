@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="422.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerInformacje">
+    <children>
+        <Button fx:id="buttonCof" layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleCof" text="Cofnij" />
+        <Button fx:id="buttonEma" layoutX="12.0" layoutY="210.0" mnemonicParsing="false" onAction="#handleEma" text="Zmień" />
+        <Button fx:id="buttonTel" layoutX="12.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleTel" text="Zmień" />
+        <Button fx:id="buttonAdr" layoutX="12.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleAdr" text="Zmień" />
+        <Button fx:id="buttonHas" layoutX="12.0" layoutY="335.0" mnemonicParsing="false" onAction="#handleHas" prefHeight="25.0" prefWidth="178.0" text="Zmień hasło" />
+        <Label layoutX="75.0" layoutY="90.0" prefHeight="25.0" prefWidth="50.0" text="Login:" />
+        <Label fx:id="uzyNicLabel" layoutX="170.0" layoutY="90.0" prefHeight="25.0" prefWidth="200.0" text="Placeholder" />
+        <Label layoutX="75.0" layoutY="130.0" prefHeight="25.0" prefWidth="50.0" text="Imię:" />
+        <Label fx:id="uzyImiLabel" layoutX="170.0" layoutY="130.0" prefHeight="25.0" prefWidth="200.0" text="Placeholder" />
+        <Label layoutX="75.0" layoutY="170.0" prefHeight="25.0" prefWidth="75.0" text="Nazwisko:" />
+        <Label fx:id="uzyNazLabel" layoutX="170.0" layoutY="170.0" prefHeight="25.0" prefWidth="200.0" text="Placeholder" />
+        <Label layoutX="75.0" layoutY="210.0" prefHeight="25.0" prefWidth="50.0" text="Email:" />
+        <Label fx:id="uzyEmaLabel" layoutX="170.0" layoutY="210.0" prefHeight="25.0" prefWidth="200.0" text="Placeholder" />
+        <Label layoutX="75.0" layoutY="250.0" prefHeight="25.0" prefWidth="50.0" text="Telefon:" />
+        <Label fx:id="uzyTelLabel" layoutX="170.0" layoutY="250.0" prefHeight="25.0" prefWidth="200.0" text="Placeholder" />
+        <Label layoutX="75.0" layoutY="290.0" prefHeight="25.0" prefWidth="50.0" text="Adres:" />
+        <Label fx:id="uzyAdrLabel" layoutX="170.0" layoutY="290.0" prefHeight="25.0" prefWidth="200.0" text="Placeholder" />
+    </children>
+</AnchorPane>

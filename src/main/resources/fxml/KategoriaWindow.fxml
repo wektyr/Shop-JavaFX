@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerKategoria">
+    <children>
+        <TableView fx:id="tab2" layoutX="484.0" layoutY="34.0" prefHeight="463.0" prefWidth="250.0">
+            <columns>
+                <TableColumn fx:id="kolId" prefWidth="61.000030517578125" text="id" />
+                <TableColumn fx:id="kolKat" prefWidth="152.0" text="kategoria" />
+            </columns>
+        </TableView>
+      <Button fx:id="buttonKat" layoutX="23.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleKat" prefHeight="72.0" prefWidth="225.0" text="Dodaj kategorie" />
+      <TextField fx:id="addKat" layoutX="297.0" layoutY="249.0" />
+    </children>
+</AnchorPane>

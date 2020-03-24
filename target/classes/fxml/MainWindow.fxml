@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="870.0" prefWidth="1301.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerStart">
+    <children>
+        <TableView fx:id="tab" layoutX="292.0" layoutY="44.0" prefHeight="658.0" prefWidth="971.0">
+            <columns>
+                <TableColumn fx:id="kolId" prefWidth="75.0" text="id" />
+                <TableColumn fx:id="kolNaz" prefWidth="75.0" text="nazwa" />
+                <TableColumn fx:id="kolKat" prefWidth="75.0" text="kategoria" />
+                <TableColumn fx:id="kolMar" prefWidth="75.0" text="marka" />
+                <TableColumn fx:id="kolCen" prefWidth="98.0" text="cena" />
+                <TableColumn fx:id="kolIlo" minWidth="0.0" prefWidth="72.0" text="ilosc" />
+                <TableColumn fx:id="kolCzy" prefWidth="173.0" text="czy_dostepny" />
+            </columns>
+        </TableView>
+        <Button fx:id="buttonUzy" layoutX="65.0" layoutY="97.0" mnemonicParsing="false" onAction="#handleUzy" prefHeight="42.0" prefWidth="170.0" text="Lista uzytkownikow" />
+        <Label fx:id="iloscProduktow" layoutX="65.0" layoutY="30.0" prefHeight="42.0" prefWidth="170.0" text="Ilosc produktow:" textAlignment="CENTER">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonAddPro" layoutX="77.0" layoutY="751.0" mnemonicParsing="false" onAction="#handleAddPro" prefHeight="52.0" prefWidth="146.0" text="Dodaj produkt" />
+        <Button fx:id="buttonRemPro" layoutX="76.0" layoutY="670.0" mnemonicParsing="false" onAction="#handleRemPro" prefHeight="52.0" prefWidth="146.0" text="Usuń produkt" />
+        <TextField fx:id="addNazwa" layoutX="268.0" layoutY="765.0" prefHeight="25.0" prefWidth="170.0" />
+        <TextField fx:id="addMarka" layoutX="456.0" layoutY="765.0" />
+        <TextField fx:id="addCena" layoutX="816.0" layoutY="765.0" prefHeight="25.0" prefWidth="66.0" />
+        <TextField fx:id="addIlosc" layoutX="900.0" layoutY="765.0" prefHeight="25.0" prefWidth="78.0" />
+        <Label layoutX="325.0" layoutY="734.0" text="Nazwa" />
+        <Label layoutX="513.0" layoutY="734.0" text="Marka" />
+        <Label layoutX="685.0" layoutY="735.0" text="Kategoria" />
+        <Label layoutX="836.0" layoutY="735.0" text="Cena" />
+        <Label layoutX="927.0" layoutY="735.0" text="Ilosc" />
+        <Button fx:id="buttonTra" layoutX="65.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleTra" prefHeight="42.0" prefWidth="170.0" text="Lista transakcji" />
+        <Button fx:id="buttonKat" layoutX="65.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleKat" prefHeight="42.0" prefWidth="170.0" text="Lista kategorii" />
+        <Button fx:id="buttonAddIlo" layoutX="76.0" layoutY="499.0" mnemonicParsing="false" onAction="#handleAddIlo" prefHeight="52.0" prefWidth="146.0" text="Dodaj ilosc produktu" />
+        <ChoiceBox fx:id="checkKategoria" layoutX="622.0" layoutY="765.0" prefHeight="25.0" prefWidth="178.0" />
+        <TextField fx:id="iloscc" layoutX="76.0" layoutY="571.0" />
+        <Button fx:id="buttonKup" layoutX="64.0" layoutY="293.0" mnemonicParsing="false" onAction="#handleKup" prefHeight="42.0" prefWidth="170.0" text="Kupowanie" />
+    </children>
+</AnchorPane>
